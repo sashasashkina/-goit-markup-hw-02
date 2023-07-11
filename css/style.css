@@ -6,19 +6,21 @@ body {
 
 }
 
-header { color: green;
- 
-  
-  
-}
-.nav{ 
-}
-:root{
-  --brand-color:#4d5ae5;
-  --span-color:#2e2f42;
+header {
+  color: green;
+
+
+
 }
 
-.logo{
+.nav {}
+
+:root {
+  --brand-color: #4d5ae5;
+  --span-color: #2e2f42;
+}
+
+.logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -26,24 +28,37 @@ header { color: green;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
-  
-  color:var(--brand-color);
+
+  color: var(--brand-color);
 }
-.logo-studio{
-color: var(--span-color);
+
+.logo-studio {
+  color: var(--span-color);
 }
-.logo:link
-{
+
+.logo:link {
   text-decoration: none;
 
 }
-.nav.menu {
-  color: green;
+
+.menu {
+
   list-style: none;
-  
- 
+
+
 }
 
+.menu-studio {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color:var(--span-color);
+}
+.menu-studio.hover,
+.menu-studio.focus{
+  color: #404bbf;
+}
 
 
 .mail {
@@ -80,7 +95,8 @@ color: var(--span-color);
   letter-spacing: 1.12px;
   text-align: center;
   line-height: 1.07;
-  color: white;}
+  color: white;
+}
 
 .button {
   background-color: #4D5AE5;
