@@ -13,6 +13,10 @@ header { color: green;
 }
 .nav{ 
 }
+:root{
+  --brand-color:#4d5ae5;
+  --span-color:#2e2f42;
+}
 
 .logo{
   font-family: "Raleway", sans-serif;
@@ -23,9 +27,15 @@ header { color: green;
   text-transform: uppercase;
   align-items: center;
   text-decoration: none;
-  color: #2e2f42;
+  color:var(--brand-color);
 }
+.logo-studio{
+color: var(--span-color);
+}
+.logo:hover,
+.logo:focus{
 
+}
 .nav.menu {
   color: green;
   list-style: none;
@@ -33,17 +43,7 @@ header { color: green;
  
 }
 
-.menu:hover,
-.menu:focus {
-  color: #404BBF;
-}
 
-.menu:active {
-  color: #404BBF;
-}
-nav.studio{
-  font-weight: 500;
-}
 
 .mail {
   color: #434455;
@@ -69,9 +69,6 @@ nav.studio{
   font-size: 56px;
 
 }
-:root{
-  --brand-color:#4d5ae5;
-}
 
 .type {
   font-family: Roboto;
@@ -82,8 +79,7 @@ nav.studio{
   letter-spacing: 1.12px;
   text-align: center;
   line-height: 1.07;
-  color:var(--brand-color);
-}
+  color: white;}
 
 .button {
   background-color: #4D5AE5;
