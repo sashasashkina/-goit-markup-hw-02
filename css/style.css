@@ -32,8 +32,9 @@ header { color: green;
 .logo-studio{
 color: var(--span-color);
 }
-.logo:hover,
-.logo:focus{
+.logo:link
+{
+  text-decoration: none
 
 }
 .nav.menu {
