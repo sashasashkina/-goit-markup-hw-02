@@ -6,12 +6,7 @@ body {
 
 }
 
-header {
-  color: green;
-
-
-
-}
+header {}
 
 .nav {}
 
@@ -42,10 +37,7 @@ header {
 }
 
 .menu {
-
   list-style: none;
-
-
 }
 
 .menu-studio {
@@ -53,10 +45,11 @@ header {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color:var(--span-color);
+  color: var(--span-color);
 }
+
 .menu-studio.hover,
-.menu-studio.focus{
+.menu-studio.focus {
   color: #404bbf;
 }
 
