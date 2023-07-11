@@ -1,8 +1,7 @@
 body {
   background: #FFF;
-  font-family: 'Montserrat', sans-serif;
-  align-items: center;
-  color: black;
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 
 }
 
@@ -108,6 +107,9 @@ header {}
   background-color: #404BBF;
 }
 /* section2 */
+.sectiontwo{
+  list-style: none;
+}
 .list-title1{
   font-weight: 500;
   font-size: 20px;
@@ -120,3 +122,13 @@ header {}
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
 }
+/* section3 */
+.sectionthree{
+  list-style: none;
+}
+.maintitle{
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--span-color);}
