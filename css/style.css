@@ -7,7 +7,6 @@ body {
 
 header {}
 
-.nav {}
 
 :root {
   --brand-color: #4d5ae5;
@@ -23,7 +22,6 @@ header {}
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
-
   color: var(--brand-color);
 }
 
@@ -31,44 +29,45 @@ header {}
   color: var(--span-color);
 }
 
-.logo:link {
+.link{
   text-decoration: none;
-
 }
 
-.menu {
+.list{
   list-style: none;
 }
 
-.menu-studio {
+.listmenu{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--span-color);
+ 
+  
 }
 
-.menu-studio.hover,
-.menu-studio.focus {
-  color: #404bbf;
-}
-
-
-.mail {
-  color: #434455;
-}
-
-.mail:hover,
-.mail:focus {
+.listmenu :hover ,
+.listmenu :focus {
   color: #404BBF;
 }
 
-.number {
+
+.address-item-mail {
+  color: #434455;
+  
+}
+
+.address-item-mail:hover,
+.address-item-mail:focus {
+  color: #404BBF;
+}
+
+.address-item-number {
   color: #434455;
 }
 
-.number:hover,
-.number:focus {
+.address-item-number:hover,
+.address-item-number:focus {
   color: #404BBF;
 }
 
