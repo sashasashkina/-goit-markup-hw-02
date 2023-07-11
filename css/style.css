@@ -13,6 +13,7 @@ header {}
 :root {
   --brand-color: #4d5ae5;
   --span-color: #2e2f42;
+  --paragraf-color: #434455;
 }
 
 .logo {
@@ -105,4 +106,17 @@ header {}
 .button:hover,
 .button:focus {
   background-color: #404BBF;
+}
+/* section2 */
+.title1{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--span-color);
+}
+.paragraf{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-color);
 }
