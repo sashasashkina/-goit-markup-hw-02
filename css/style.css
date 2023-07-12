@@ -12,6 +12,7 @@ header {}
   --brand-color: #4d5ae5;
   --span-color: #2e2f42;
   --paragraf-color: #434455;
+  --paragraf-tooter:  #F4F4FD;
 }
 
 .logo {
@@ -29,32 +30,38 @@ header {}
   color: var(--span-color);
 }
 
-.link{
+.link {
   text-decoration: none;
 }
 
-.list{
+.list {
   list-style: none;
 }
 
-.listmenu{
+.listmenu {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
- 
-  
 }
 
-.listmenu :hover ,
+.listmenu-item {
+  color: var(--span-color);
+  letter-spacing: 0.02em
+}
+
+.listmenu :hover,
 .listmenu :focus {
   color: #404BBF;
 }
 
+.address {
+  font-style: normal;
+}
 
 .address-item-mail {
   color: #434455;
-  
+
 }
 
 .address-item-mail:hover,
@@ -105,6 +112,7 @@ header {}
 .button:focus {
   background-color: #404BBF;
 }
+
 /* section2 */
 .visually-hidden {
   position: absolute;
@@ -113,35 +121,82 @@ header {}
   margin: -1px;
   border: 0;
   padding: 0;
-  
+
   white-space: nowrap;
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.sectiontwo{
+
+.sectiontwo {
   list-style: none;
 }
-.sked-list{
+
+.sked-list {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--span-color);
 }
-.sked-paragraf{
+
+.sked-paragraf {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
 }
+
 /* section3 */
-.sectionthree{
+.sectionthree {
   list-style: none;
 }
-.sectionthree-maintitle{
+
+.sectionthree-maintitle {
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
   text-transform: capitalize;
-  color: var(--span-color);}
-  /* section4 */
+  color: var(--span-color);
+}
+
+/* section4 */
+.sectionfour {
+  background-color: #F4F4FD;
+}
+
+.sectionfour-ourteam {
+  font-size: 36px;
+  Family: Roboto;
+  Weight: Bold;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--span-color);
+}
+
+.images {
+  background-color: #FFFFFF;
+}
+.sectionfour-firstname{
+  font-weight: 500;
+  weight: medium;
+  font-size: 20px;
+  letter-spacing: 0.02em;
+  color: var(--span-color);
+}
+.sectionfour-profession{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.footer{
+  background-color: var(--span-color);
+}
+.span{
+  color: #f4f4fd;
+}
+.footer-paragpaf{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-tooter);
+}
