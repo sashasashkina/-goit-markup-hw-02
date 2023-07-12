@@ -54,19 +54,23 @@ header {}
 .listmenu :hover,
 .listmenu :focus {
   color: #404BBF;
+  
 }
 
 .address {
   font-style: normal;
 }
 
-.address-item-mail {
+.address-item-contact {
   color: #434455;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
 
 }
 
-.address-item-mail:hover,
-.address-item-mail:focus {
+.address-item-contact:hover,
+.address-item-contact:focus {
   color: #404BBF;
 }
 
