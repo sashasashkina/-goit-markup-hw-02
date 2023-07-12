@@ -47,7 +47,8 @@ header {}
 
 .listmenu-item {
   color: var(--span-color);
-  letter-spacing: 0.02em
+  letter-spacing: 0.02em;
+  line-height: 1.5;
 }
 
 .listmenu :hover,
@@ -175,7 +176,7 @@ header {}
   color: var(--span-color);
 }
 
-.images {
+.sectionfour-profession-images{
   background-color: #FFFFFF;
 }
 .sectionfour-firstname{
@@ -184,6 +185,7 @@ header {}
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--span-color);
+  line-height: 1.2;
 }
 .sectionfour-profession{
   line-height: 1.5;
