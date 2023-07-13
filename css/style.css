@@ -23,7 +23,6 @@ header {}
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  align-items: center;
   color: var(--brand-color);
 }
 
@@ -197,10 +196,8 @@ header {}
   color: var(--paragraf-tooter);
 }
 /* portfolio */
-.secttion01-list-buttom{
-  list-style: none;
-}
-.section01-buttom{
+
+.section-list{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -210,24 +207,22 @@ header {}
   background-color:var(--paragraf-tooter);
   cursor: pointer;
 }
-.section01-buttom:hover,
-.section01-buttom:focus{
+.section-list:hover,
+.section-list:focus{
   color: #FFFFFF;
   background-color: #404BBF;
 }
 
 /* list2 */
-.section01-list2-images{
-  text-decoration: none;
-} 
-.section01-list2-images-name{
+
+.section-list-images-name{
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--span-color);
 }
-.section01-list2-images-item{
+.section-list-images-item{
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
