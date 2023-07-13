@@ -197,7 +197,7 @@ header {}
 }
 /* portfolio */
 
-.section-list{
+.section-listone{
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -207,8 +207,8 @@ header {}
   background-color:var(--paragraf-tooter);
   cursor: pointer;
 }
-.section-list:hover,
-.section-list:focus{
+.section-listone:hover,
+.section-listone:focus{
   color: #FFFFFF;
   background-color: #404BBF;
 }
