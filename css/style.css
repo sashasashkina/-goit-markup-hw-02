@@ -180,8 +180,8 @@ header {}
   color: var(--span-color);
 }
 
-.li{
-  background-color: white;
+li{
+  background-color: #FFFFFF;
 }
 .sectionfour-firstname{
   font-weight: 500;
