@@ -201,6 +201,7 @@ header {}
   list-style: none;
 }
 .section01-buttom{
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -233,4 +234,7 @@ header {}
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--paragraf-color);
+}
+.section01-list2-images{
+  text-decoration: none;
 }
