@@ -217,4 +217,19 @@ header {}
 }
 
 /* list2 */
-
+.section01-list2-images{
+  text-decoration: none;
+} 
+.section01-list2-images-name{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--span-color);
+}
+.section01-list2-images-item{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--paragraf-color);
+}
