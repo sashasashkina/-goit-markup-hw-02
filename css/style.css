@@ -13,7 +13,7 @@
 body {
   background: var(--white-color);
   font-family: "Roboto", sans-serif;
-  color: var(--paragraf-colorxs);
+  color: var(--paragraf-color);
 }
 
 .logo {
@@ -181,6 +181,7 @@ body {
 .sectionfour-profession{
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--paragraf-color);
 }
 .footer{
   background-color: var(--span-color);
