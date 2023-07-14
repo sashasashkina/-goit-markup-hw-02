@@ -1,19 +1,19 @@
-body {
-  background: #FFF;
-  font-family: "Roboto", sans-serif;
-  color: #434455;
-
-}
-
-header {}
-
 
 :root {
   --brand-color: #4d5ae5;
   --span-color: #2e2f42;
   --paragraf-color: #434455;
   --paragraf-tooter:  #F4F4FD;
+  --white-color: #ffffff;
+  --listmenu-color:  #404BBF;
+}
   
+
+
+body {
+  background: var(--white-color);
+  font-family: "Roboto", sans-serif;
+  color: var(--paragraf-colorxs);
 }
 
 .logo {
@@ -53,7 +53,7 @@ header {}
 
 .listmenu :hover,
 .listmenu :focus {
-  color: #404BBF;
+  color: var(--listmenu-color);
   
 }
 
@@ -62,7 +62,7 @@ header {}
 }
 
 .address-item-contact {
-  color: #434455;
+  color: var(--paragraf-color);
   line-height: 1.5;
   letter-spacing: 0.02em;
 
@@ -71,21 +71,21 @@ header {}
 
 .address-item-contact:hover,
 .address-item-contact:focus {
-  color: #404BBF;
+  color: var(--listmenu-color);
 }
 
 .address-item-number {
-  color: #434455;
+  color: var(--paragraf-color);
 }
 
 .address-item-number:hover,
 .address-item-number:focus {
-  color: #404BBF;
+  color: var(--listmenu-color);
 }
 
 /* section1 */
 .sectionone {
-  background: #2E2F42;
+  background: var(--span-color);
   font-size: 56px;
 
 }
@@ -93,18 +93,16 @@ header {}
 .type {
   font-family: Roboto;
   font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
+  
+  
   letter-spacing: 1.12px;
   text-align: center;
   line-height: 1.07;
-  color: white;
-}
+  color: var(--white-color);}
 
 .button {
-  background-color: #4D5AE5;
-  color: white;
+  background-color: var(--brand-color);
+  color:var(--white-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -115,8 +113,9 @@ header {}
 
 .button:hover,
 .button:focus {
-  background-color: #404BBF;
+  background-color: var(--listmenu-color);
 }
+
 
 /* section2 */
 
@@ -155,13 +154,12 @@ header {}
 
 /* section4 */
 .sectionfour {
-  background-color: #F4F4FD;
+  background-color: var(--paragraf-tooter);
 }
 
 .sectionfour-ourteam {
   font-size: 36px;
-  Family: Roboto;
-  Weight: Bold;
+ 
   line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
@@ -170,11 +168,11 @@ header {}
 }
 
 .sectionfour-li{
-  background-color: #FFFFFF;
+  background-color:var(--white-color);
 }
 .sectionfour-firstname{
   font-weight: 500;
-  weight: medium;
+
   font-size: 20px;
   letter-spacing: 0.02em;
   color: var(--span-color);
@@ -188,7 +186,7 @@ header {}
   background-color: var(--span-color);
 }
 .span{
-  color: #f4f4fd;
+  color: var(--paragraf-tooter); 
 }
 .footer-paragpaf{
   line-height: 1.5;
@@ -209,8 +207,8 @@ header {}
 }
 .section-button:hover,
 .section-button:focus{
-  color: #FFFFFF;
-  background-color: #404BBF;
+  color:var(--white-color);
+  background-color: var(--listmenu-color);
 }
 
 /* list2 */
