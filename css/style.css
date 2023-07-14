@@ -207,8 +207,8 @@ header {}
   background-color:var(--paragraf-tooter);
   cursor: pointer;
 }
-.section-butto:hover,
-.section-butto:focus{
+.section-button:hover,
+.section-button:focus{
   color: #FFFFFF;
   background-color: #404BBF;
 }
